@@ -1,0 +1,50 @@
+html {
+    background-color: pink;
+}
+
+#confetti {
+    font-family: "felt-tip-senior", sans-serif;
+    color: white; 
+    font-size: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#confettigif {
+    width: 100%; /* Ensure the GIF fills its container */
+}
+
+#text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure text appears above the GIF */
+}
+
+body {
+    font-family: "felt-tip-senior", sans-serif;
+    color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px; /* Corrected unit declaration */
+}
+
+#headlinelink {
+    top: calc(50vh - 8px); /* Assuming this style is for another element, make sure to close the commented section */
+    text-align: center;
+}
+
+#cake {
+    margin: 10px;
+    width: 5%;
+    height: auto;
+}
+
+#text-container img {
+    width: 250px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }

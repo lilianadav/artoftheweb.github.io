@@ -1,0 +1,102 @@
+html {
+    background-color: pink;
+}
+
+body {
+    font-family: "felt-tip-senior", sans-serif;
+    color: white; 
+    font-size: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 80%; 
+    transform: translateY(-10%); 
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+#textunder {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: "felt-tip-senior", sans-serif;
+    color: white; 
+    display: flex;
+    font-size: 30;
+    text-align: center;
+}
+
+a:hover {
+    color: 
+}
+
+table {
+    position: absolute;
+    top: 52%;
+}
+
+.present2 {
+    margin-top: 40px; /* Adjust as needed */
+}
+
+.present3 {
+    margin-top: 37px; /* Adjust as needed */
+}
+
+.present1 {
+    margin-top: -12px; /* Adjust as needed */
+}
+.present-container {
+    margin-top: 10px; 
+}
+
+.present1 {
+    width: 120px;
+    height: 120px;
+}
+
+.present2 {
+    width: 130px;
+    height: 108px;
+}
+
+.present3 {
+    width: 140px;
+    height: 140px;
+}
+
+
+.present1 img, .present2 img, .present3 img {
+    width: 100%;
+}
+
+.present-container {
+    margin: 14px;
+}
+
+.present-container:hover img {
+    filter: drop-shadow(16px 16px 10px #d98095);
+    padding: 0;
+    margin: 0;
+}
+
+a.present1 {
+    display: inline-block;
+    width: 150px; 
+    height: 130px; 
+}
+
+a.present2 {
+    display: inline-block;
+    width: 160px; 
+    height: 120px; 
+}
+
+a.present3 {
+    display: inline-block;
+    width: 170px; 
+    height: 160px; 
+}

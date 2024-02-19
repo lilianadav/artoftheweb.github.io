@@ -1,0 +1,44 @@
+html {
+    background-color: pink;
+}
+
+body {
+    font-family: "felt-tip-senior", sans-serif;
+    color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30; 
+}
+
+#headlinelink {
+    /* position: absolute;
+    left: calc(50vw - 50px);
+    top: calc(50vh - 8px); */
+    text-align: center;
+}
+#cake{
+    margin: 20px;
+    width: 50%;
+   height: auto;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: 
+}
+
+#textunder {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: "felt-tip-senior", sans-serif;
+    color: white; 
+    display: flex;
+    font-size: 20;
+    text-align: center;
+}
