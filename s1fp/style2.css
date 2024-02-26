@@ -53,7 +53,7 @@ table {
     margin-top: 10px; 
 }
 
-.present1 {
+/* .present1 {
     width: 120px;
     height: 120px;
 }
@@ -66,11 +66,12 @@ table {
 .present3 {
     width: 140px;
     height: 140px;
-}
+} */
 
 
 .present1 img, .present2 img, .present3 img {
     width: 100%;
+    height: auto;
 }
 
 .present-container {
@@ -85,18 +86,18 @@ table {
 
 a.present1 {
     display: inline-block;
-    width: 150px; 
-    height: 130px; 
+    width: 30vw; 
+    /* height: 130px;  */
 }
 
 a.present2 {
     display: inline-block;
-    width: 160px; 
-    height: 120px; 
+    width: 30vw; 
+    /* height: 120px;  */
 }
 
 a.present3 {
     display: inline-block;
-    width: 170px; 
-    height: 160px; 
+    width: 30vw; 
+    /* height: 160px;  */
 }
