@@ -1,0 +1,48 @@
+<head>
+    <link rel="stylesheet" href="stylemap.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bio2gmj.css">
+    <script>
+        function closePopup(id) {
+            document.getElementById(id).style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>my favorite beaches</h1>
+    <div id="container">
+        <!-- my favorite beaches! -->
+        <div id="prwrapper">
+            <img id="pr" src="pr.png">
+            <a href="#westbeach"><img id="pin1" src="pin (2).png"></a>
+            <a href="#montones"><img id="pin2" src="pin (2).png"></a>
+            <a href="#ocean"><img id="pin3" src="pin (2).png"></a>
+            <a href="#crashboat"><img id="pin4" src="pin (2).png"></a>
+            <a href="#bluebeach"><img id="pin5" src="pin (2).png"></a>
+        </div>
+    </div>
+    <div id="westbeach" class="popup">
+        <img src="west beach.jpg">
+        <p> West Beach, Dorado </p>
+        <div class="overlay" onclick="closePopup('westbeach')"></div>
+    </div>
+    <div id="montones" class="popup">
+        <img src="montones.jpg">
+        <p> Montones, Isabela </p>
+    </div>
+    <div id="ocean" class="popup">
+        <img src="ocean.jpg">
+        <p> Ocean Park, San Juan </p>
+    </div>
+    <div id="crashboat" class="popup">
+        <img src="crash boat.JPG">
+        <p> Crash Boat, Aguadilla </p>
+    </div>
+    <div id="bluebeach" class="popup">
+        <img src="bluebeach.jpg">
+        <p> Blue Beach, Vieques </p>
+    </div>
+</body>
+
+  
+
