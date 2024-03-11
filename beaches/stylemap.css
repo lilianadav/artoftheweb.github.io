@@ -1,0 +1,192 @@
+html {
+    background-color: #87dfee;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: "roca", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:white; 
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+h1 {
+    font-size: 7vw;
+    margin: 0;
+    position: absolute;
+    top: 20vh;
+    left: 17vw;
+}
+
+#prwrapper {
+    position: relative;
+    width: 80vw;
+    height: 35vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#prwrapper > #pr {
+    width: 100%;
+    height: auto;
+}
+
+
+#pin1 {
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    max-width: 18%;
+    max-height: 18%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#pin1:hover {
+    transform: scale(1.5);
+}
+
+#pin2 {
+    position: absolute;
+    top: 11%;
+    left: 18%;
+    max-width: 18%;
+    max-height: 18%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#pin2:hover {
+    transform: scale(1.5);
+}
+
+#pin3 {
+    position: absolute;
+    top: 15%;
+    left: 58%;
+    max-width: 18%;
+    max-height: 18%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#pin3:hover {
+    transform: scale(1.5);
+}
+
+#pin4 {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    max-width: 18%;
+    max-height: 18%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#pin4:hover {
+    transform: scale(1.5);
+}
+
+#pin5 {
+    position: absolute;
+    top: 45%;
+    left: 83%;
+    max-width: 18%;
+    max-height: 18%;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#pin5:hover {
+    transform: scale(1.5);
+}
+
+
+#westbeach {
+    display: none;
+
+}
+
+#montones {
+    display: none;
+}
+
+#ocean {
+    display: none;
+}
+
+#crashboat {
+    display: none;
+}
+
+#bluebeach {
+    display: none;
+}
+
+.popup {
+    display: none; /* Hide all popups by default */
+    position: fixed;
+    width: 55vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.popup p {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#westbeach:target {
+    display: block;
+}
+
+#montones:target {
+    display: block;
+}
+
+#ocean:target {
+    display: block;
+}
+
+#crashboat:target {
+    display: block;
+}
+
+#bluebeach:target {
+    display: block;
+}
+
