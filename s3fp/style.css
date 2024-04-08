@@ -1,0 +1,86 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url("beautiful-shining-stars-night-sky.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.gradient {
+    width: 500px;
+    height: 500px;
+    background-image: url("gradient.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.breather {
+    width: 80px;
+    height: 80px;
+    background-color: #ff7978;
+    opacity: 0.7;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 15px); /* Adjusted positioning based on the size of the gradient */
+    left: calc(50% - 20px); /* Adjusted positioning based on the size of the gradient */
+    transform: translate(-50%, -50%);
+    animation: circleAnimation 16s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+.text {
+    opacity: 0; /* Initially hidden */
+    position: absolute;
+    top: calc(50% + 220px); /* Position 40px below the center of the circle */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Set text color to white */
+    font-family: 'your-typekit-font', sans-serif; /* Use the provided Typekit font */
+    animation: fadeInOut 4s linear forwards; /* Total duration: 1s appear, 2s hold, 1s disappear */
+}
+
+/* Apply animation delays to each text element */
+.text:nth-child(2) {
+    animation-delay: 4s; /* Delay the second text by 4 seconds */
+}
+
+.text:nth-child(3) {
+    animation-delay: 8s; /* Delay the third text by 8 seconds */
+}
+
+
+@keyframes circleAnimation {
+    0%, 16.66% {
+        width: 80px;
+        height: 80px;
+    }
+    33.33%, 66.66% {
+        width: 300px;
+        height: 300px;
+    }
+    100% {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; /* Start invisible */
+    }
+    25% {
+        opacity: 1; /* Fade in over the first quarter of the animation */
+    }
+    75% {
+        opacity: 1; /* Hold at fully visible for the middle half of the animation */
+    }
+    100% {
+        opacity: 0; /* Fade out over the last quarter of the animation */
+    }
+}
