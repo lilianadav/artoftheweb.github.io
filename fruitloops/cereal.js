@@ -5,7 +5,7 @@ var circleAlpha = 130;
 var circleColor;
 
 function setup() {
-  createCanvas(8000, 8000);
+  createCanvas(450,155);
   noFill();
   circleColor = color(0, 0, 0, circleAlpha);
   randomSeed(random(100000));
@@ -25,17 +25,11 @@ function draw() {
 
       var posX = width / tileCount * gridX;
       var posY = height / tileCount * gridY;
-
       var shiftX = random(-mouseX, mouseX) / 20;
       var shiftY = random(-mouseX, mouseX) / 20;
-
-    
       var strokeColor = color(random(255), random(255), random(255), circleAlpha);
-
-      
       stroke(strokeColor);
       noFill(); 
-
       ellipse(posX + shiftX, posY + shiftY, mouseY / 15, mouseY / 15);
     }
   }
