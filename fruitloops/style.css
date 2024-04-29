@@ -1,9 +1,71 @@
-html, body {
-    padding: 0;
-    margin: 0;
-  }
-  
-  canvas {
-    vertical-align: top;
-  }
-  
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+#background-rectangle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%; 
+  background-color: #F9957A; 
+  z-index: 0; 
+}
+
+#oval-shape {
+  position: absolute;
+  top: 70%; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%; 
+  height: 20%; 
+  background-color: #F66C3F; 
+  border-radius: 50%; 
+  z-index: 1; 
+}
+
+#container {
+  margin: 0;
+  padding: 0; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #3D348B; 
+  z-index: -1; 
+}
+
+canvas {
+  position: absolute;
+  top: 50%; /* Position canvas at 50% from the top */
+  left: 50%; /* Position canvas at 50% from the left */
+  transform: translate(-50%, -50%); /* Center canhttp://127.0.0.1:3000/bowl(of).pngvas using transform */
+  max-width: 100%; /* Ensure canvas does not exceed container width */
+  max-height: 100%; /* Ensure canvas does not exceed container height */
+  border-radius: 50%;
+}
+
+#bowl-image {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+  width: 600px; 
+  height: auto; 
+}
+
+#text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+  font-size: 40px; 
+  color: white; 
+  font-family: "gambado-sans-forte", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
