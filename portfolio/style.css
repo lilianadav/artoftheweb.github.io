@@ -42,69 +42,69 @@ h2 {
 .clock,
 .cake,
 .icecream, 
-.spark { /* Adjust the maximum width of the images */
+.spark { /
     height: auto;
     position: absolute
 }
 
 .rr {
-    top: -90%; /* Adjust this value for the desired distance from the top */
-    left: -60%;
-    max-width: 75%; /* Adjust this value for the desired distance from the left */
+    top: -85%; 
+    left: -50%;
+    max-width: 70%; 
 }
 
 .still {
-    top: -78%; /* Adjust this value for the desired distance from the top */
-    right: -60%;
-    max-width: 60%; /* Adjust this value for the desired distance from the right */
+    top: -65%; 
+    right: -55%;
+    max-width: 50%; 
 }
 
 .beach {
     top: 45%;
     right: -60%;
-    max-width: 75%;
+    max-width: 65%;
 }
 
 .breathe {
     top: -20%;
     right: 100%;
-    max-width: 70%;
+    max-width: 60%;
 }
 
 .cereal {
-    top: 45%;
+    top: 35%;
     right: 110%;
-    max-width: 60%;
+    max-width: 55%;
 }
 
 .spotify {
     top: 75%;
-    right: 75%;
-    max-width: 45%;
+    right: 85%;
+    max-width: 40%;
 }
 
 .clock {
     top: 25%;
     right: -60%;
-    max-width: 55%;
+    max-width: 45%;
 }
 
 .cake {
-    top: -40%;
-    right: -80%;
-    max-width: 55%;
+    top: -30%;
+    right: -70%;
+    max-width: 45%;
 }
 
 .icecream {
     top: -40%;
     right: -25%;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .spark {
-    top: -60%; 
-    left: -10%;
-    max-width: 45%; 
+    top: -50%; 
+    left: -5%;
+    max-width: 35%; 
 }
 
 .rr,
@@ -118,10 +118,10 @@ h2 {
 .icecream, {
     height: auto;
     position: absolute;
-    transition: transform 0.5s ease; /* Add transition for smooth effect */
+    transition: transform 0.5s ease; 
 }
 
-/* Add hover effect */
+
 .rr:hover,
 .still:hover,
 .beach:hover,
@@ -132,5 +132,4 @@ h2 {
 .cake:hover,
 .icecream:hover,
 .spark:hover {
-    transform: scale(1.10); /* Increase scale on hover */
-}
+    transform: scale(1.10); 
