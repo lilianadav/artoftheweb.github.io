@@ -1,11 +1,45 @@
-style2.css
-
 body {
-    background-color: #F9EDE4;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-color: #D94494;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "mudstone-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    text-align: left;
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
 }
