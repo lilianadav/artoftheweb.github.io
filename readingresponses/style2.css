@@ -1,0 +1,11 @@
+style2.css
+
+body {
+    background-color: #F9EDE4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
