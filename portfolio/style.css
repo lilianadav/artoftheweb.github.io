@@ -1,0 +1,136 @@
+body {
+    background-color: #F9EDE4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content-group {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    font-family: "mudstone-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #D94494;
+    font-size: 6vw;
+    max-width: 100%;
+}
+
+h2 {
+    font-family: "felt-tip-senior", sans-serif;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw;
+    position: relative; 
+    top: 0.8em;
+}
+
+
+.rr,
+.still,
+.beach,
+.breathe,
+.cereal,
+.spotify,
+.clock,
+.cake,
+.icecream, 
+.spark { /* Adjust the maximum width of the images */
+    height: auto;
+    position: absolute
+}
+
+.rr {
+    top: -90%; /* Adjust this value for the desired distance from the top */
+    left: -60%;
+    max-width: 75%; /* Adjust this value for the desired distance from the left */
+}
+
+.still {
+    top: -78%; /* Adjust this value for the desired distance from the top */
+    right: -60%;
+    max-width: 60%; /* Adjust this value for the desired distance from the right */
+}
+
+.beach {
+    top: 45%;
+    right: -60%;
+    max-width: 75%;
+}
+
+.breathe {
+    top: -20%;
+    right: 100%;
+    max-width: 70%;
+}
+
+.cereal {
+    top: 45%;
+    right: 110%;
+    max-width: 60%;
+}
+
+.spotify {
+    top: 75%;
+    right: 75%;
+    max-width: 45%;
+}
+
+.clock {
+    top: 25%;
+    right: -60%;
+    max-width: 55%;
+}
+
+.cake {
+    top: -40%;
+    right: -80%;
+    max-width: 55%;
+}
+
+.icecream {
+    top: -40%;
+    right: -25%;
+    max-width: 50%;
+}
+
+.spark {
+    top: -60%; 
+    left: -10%;
+    max-width: 45%; 
+}
+
+.rr,
+.still,
+.beach,
+.breathe,
+.cereal,
+.spotify,
+.clock,
+.cake,
+.icecream, {
+    height: auto;
+    position: absolute;
+    transition: transform 0.5s ease; /* Add transition for smooth effect */
+}
+
+/* Add hover effect */
+.rr:hover,
+.still:hover,
+.beach:hover,
+.breathe:hover,
+.cereal:hover,
+.spotify:hover,
+.clock:hover,
+.cake:hover,
+.icecream:hover,
+.spark:hover {
+    transform: scale(1.10); /* Increase scale on hover */
+}
